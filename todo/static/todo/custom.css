@@ -1,0 +1,23 @@
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,0.9) !important;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+
+}
+
+.grow {
+transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.1);
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
