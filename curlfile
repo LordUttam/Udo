@@ -1,0 +1,11 @@
+curl -H "Content-Type: application/json" -X POST http://localhost:8000/api/signup -d "{\"username\":\"uttamsharma\", \"password\":\"Uttam123\"}"
+#to signup through curl
+
+curl http://localhost:8000/api/todos/ -H "Authorization: Token 23aa686b7cd0d8e82cc0cc15e591f8a74ba1eed7"
+#to access todos of a tokened user through curl
+
+curl -H "Content-Type: application/json" -X POST http://localhost:8000/api/login -d "{\"username\":\"uttamsharma\", \"password\":\"Uttam123\"}"
+#to login through curl
+
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Token 23aa686b7cd0d8e82cc0cc15e591f8a74ba1eed7" http://localhost:8000/api/todos/7/complete
+# adding a todo to complete
